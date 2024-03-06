@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Selling Website</title>
+    <!-- Swiper css CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- BoxIcon CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    
+    <!-- Top Header -->
+    <div class="top-header">
+        <div class="out-box">
+            <div class="inside-box">
+                <div class="col-1">
+                    <span><i class='bx bxs-envelope'></i><a href="mailto:mratikrishna@gmail.com" style="text-decoration: none; color: white;">mratikrishna@gmail.com</a></span>
+                    <span><i class='bx bxs-phone-call' ></i><a href="tel:+91 1234567890" style="text-decoration: none; color: white;">+91 1234567890</a></span>
+                    <span><i class='bx bx-alarm' ></i>Sun - Fri (08 AM - 10 PM)</span>
+                </div>
+
+                <div class="col-2">
+                    <a href="login.html"><i class='bx bx-arrow-to-right'></i>Login</a>
+                    <a href="signup.html"><i class='bx bxs-user'></i>Register</a>
+                    <span>Follow Us:</span>
+                    <div class="social">
+                        <i class='bx bxl-facebook-circle' ></i>
+                        <i class='bx bxl-twitter' ></i>
+                        <i class="bx bxl-instagram"></i>
+                        <i class="bx bxl-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar Section Start -->
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo/logo.png" alt="">
+        </div>
+        <nav>
+            <div class="navbar">
+                
+                    <ul class="navLink">
+                        <li><a href="index.html" >Home</a></li>
+                        <li><a href="about.html" class="active">About</a></li>
+                        <li><a href="#">Pages<i class='bx bxs-chevron-down'></i></a>
+                            <ul class="drop-down">
+                                <li><a href="inventory.html">Inventory</a></li>
+                                <li><a href="price.html">Subscription</a></li>
+                                <li><a href="calculator.html">Calculator</a></li>
+                                <li><a href="price.html">Our Team</a></li>
+                                <li><a href="reset.html">Reset Password</a></li>
+                                <li><a href="blog-single.html">Blog Single</a></li>
+                                <li><a href="inventory-single.html">Inventory Single</a></li>
+                                <li><a href="shop-single.html">Shop Single</a></li>
+                                <li><a href="shop_checkout.html">Shop Checkout</a></li>
+                                <li><a href="services_single.html">Services Single</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+            </div>
+            <div class="others">
+                <i class='bx bx-search-alt-2' ></i>
+                <a href="shop_cart.html"><i class='bx bx-cart-download cart'></i></a>
+                <button class="addBtn"><i class='bx bx-plus-circle'></i>Add Listing</button>
+                <i class='bx bx-menu-alt-left' id="menuBtn" ></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <div class="inventory">
+        <h2>About Us</h2>
+        <div class="link">
+            <a href="index.html">Home</a>
+            <span>>>></span>
+            <p>About Us</p>
+        </div>
+    </div>
+
+    <!-- Market Section -->
+    <section class="market" style="padding-top: 3rem;">
+        <div class="col-3">
+            <img class="one" src="img/market/01.png" alt="">
+            <div class="service">
+                <img class="two" src="img/market/2.JPG" alt="">
+                <span>30 Years of <br> quality service</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <h4><i class='bx bx-car'></i>About Us</h4>
+            <h3>World largest <span>Car <br> Dealer </span> Marketplace.</h3>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque perspiciatis aliquam excepturi magni.</p>
+
+            <p class="p1"><i class='bx bx-last-page' ></i>Lorem ipsum dolor sit.</p>
+            <p class="p1"><i class='bx bx-last-page' ></i>Lorem ipsum dolor sit.</p>
+            <p class="p1"><i class='bx bx-last-page' ></i>Lorem ipsum dolor sit.</p>
+
+            <button>Discover Now<i class='bx bx-right-arrow-alt' ></i></button>
+        </div>
+    </section>
+
+    <!-- counter Section -->
+    <div class="counter">
+        <div class="container">
+            <img src="img/icons/1.JPG" alt="" />
+            <span class="num" data-value="500">0000</span>
+            <span class="text"><i class='bx bx-plus'></i>Available Cars</span>
+        </div>
+        <div class="container">
+            <img src="img/icons/2.JPG" alt="" />
+            <span class="num" data-value="900">0000</span>
+            <span class="text"><i class='bx bx-plus'></i>Happy Clients</span>
+        </div>
+        <div class="container">
+            <img src="img/icons/3.JPG" alt="" />
+            <span class="num" data-value="1500">0000</span>
+            <span class="text"><i class='bx bx-plus'></i>Team Workers</span>
+        </div>
+        <div class="container">
+            <img src="img/icons/4.JPG" alt="" />
+            <span class="num" data-value="30">0000</span>
+            <span class="text"><i class='bx bx-plus'></i>Years Of Experience</span>
+        </div>
+    </div>
+
+    <!-- Team section  -->
+    <section class="team">
+        <h4><i class="bx bx-car"></i>Team</h4>
+        <h1>Meet With Our <span>Team</span></h1>
+
+        <div class="team-row">
+            <div class="col-1">
+                <img src="img/team/t-1.jpg" alt="">
+                <div class="info">
+                    <h6>Steve Smith</h6>
+                    <span>HR Manager</span>
+                </div>
+                <div class="follow">
+                    <i class="bx bxl-facebook"></i>
+                    <i class="bx bxl-twitter"></i>
+                    <i class="bx bxl-linkedin"></i>
+                    <i class="bx bxl-instagram"></i>
+                </div>
+            </div>
+            <div class="col-1">
+                <img src="img/team/t-2.jpg" alt="">
+                <div class="info">
+                    <h6>Jay Saha</h6>
+                    <span>Technician</span>
+                </div>
+                <div class="follow">
+                    <i class="bx bxl-facebook"></i>
+                    <i class="bx bxl-twitter"></i>
+                    <i class="bx bxl-linkedin"></i>
+                    <i class="bx bxl-instagram"></i>
+                </div>
+            </div>
+            <div class="col-1">
+                <img src="img/team/t-3.jpg" alt="">
+                <div class="info">
+                    <h6>Rohit Sharma</h6>
+                    <span>CEO & Founder</span>
+                </div>
+                <div class="follow">
+                    <i class="bx bxl-facebook"></i>
+                    <i class="bx bxl-twitter"></i>
+                    <i class="bx bxl-linkedin"></i>
+                    <i class="bx bxl-instagram"></i>
+                </div>
+            </div>
+            <div class="col-1">
+                <img src="img/team/t-4.jpg" alt="">
+                <div class="info">
+                    <h6>Marco Jansen</h6>
+                    <span>Mechanical Engineer</span>
+                </div>
+                <div class="follow">
+                    <i class="bx bxl-facebook"></i>
+                    <i class="bx bxl-twitter"></i>
+                    <i class="bx bxl-linkedin"></i>
+                    <i class="bx bxl-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Brand Section -->
+    <section class="brand">
+        <h4><i class="bx bx-car"></i>Car Dealers</h4>
+        <h1>Our Top Quality <span>Brand</span></h1>
+
+        <div class="brand-row">
+            <div class="brand-col">
+                <img src="img/brand/01.png" alt="">
+                <h5>Ferrari</h5>
+            </div>
+            <div class="brand-col">
+                <img src="img/brand/02.png" alt="">
+                <h5>Hyundai</h5>
+            </div>
+            <div class="brand-col">
+                <img src="img/brand/03.png" alt="">
+                <h5>Mercedes Benz</h5>
+            </div>
+            <div class="brand-col">
+                <img src="img/brand/04.png" alt="">
+                <h5>Toyota</h5>
+            </div>
+            <div class="brand-col">
+                <img src="img/brand/05.png" alt="">
+                <h5>BMW</h5>
+            </div>
+            <div class="brand-col">
+                <img src="img/brand/06.png" alt="">
+                <h5>Nissan</h5>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Section Start -->
+    <section class="client">
+        <h4><i class="bx bx-car"></i>Testimonials</h4>
+        <h1>What Our Client <span>Say's</span></h1>
+
+        <div class="swiper myClient">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <img src="img/client/01.jpg" alt="">
+                    <h5>Jimmy Anderson</h5>
+                    <span>Customer</span>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur omnis optio aut totam autem ut voluptatem?</p>
+                    <div class="stars">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star-half"></i>
+                    </div>
+              </div>
+              <div class="swiper-slide slide">
+                    <img src="img/client/02.jpg" alt="">
+                        <h5>Jimmy Anderson</h5>
+                        <span>Customer</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur omnis optio aut totam autem ut voluptatem?</p>
+                        <div class="stars">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star-half"></i>
+                        </div>
+              </div>
+              <div class="swiper-slide slide">
+                    <img src="img/client/03.jpg" alt="">
+                        <h5>Jimmy Anderson</h5>
+                        <span>Customer</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur omnis optio aut totam autem ut voluptatem?</p>
+                        <div class="stars">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star-half"></i>
+                        </div>
+              </div>
+              <div class="swiper-slide slide">
+                    <img src="img/client/04.jpg" alt="">
+                        <h5>Jimmy Anderson</h5>
+                        <span>Customer</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur omnis optio aut totam autem ut voluptatem?</p>
+                        <div class="stars">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star-half"></i>
+                        </div>
+              </div>
+              <div class="swiper-slide slide">
+                    <img src="img/client/05.jpg" alt="">
+                        <h5>Jimmy Anderson</h5>
+                        <span>Customer</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur omnis optio aut totam autem ut voluptatem?</p>
+                        <div class="stars">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star-half"></i>
+                        </div>
+              </div>
+
+            </div>
+          </div>
+    </section>
+
+
+    <!-- Footer Section Start -->
+    <div class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <img src="img/logo/logo-light.png" alt="">
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla recusandae blanditiis aliquam.</p>
+                <span><i class="bx bx-phone"></i>+91 123 456 7890</span>
+                <span><i class="bx bx-location-plus"></i>15/B Main Road, Puri</span>
+                <span><i class="bx bx-envelope"></i>mratikrishna@gmail.com</span>
+            </div>
+            <div class="footer-col">
+                <h5>Quick Links</h5>
+                <a href="#"><i class="bx bx-chevron-right"></i>About Us</a>
+                <a href="#"><i class="bx bx-chevron-right"></i>Update News</a>
+                <a href="#"><i class="bx bx-chevron-right"></i>Testimonials</a>
+                <a href="#"><i class="bx bx-chevron-right"></i>Terms of Services</a>
+                <a href="#"><i class="bx bx-chevron-right"></i>Privacy Policy</a>
+                <a href="#"><i class="bx bx-chevron-right"></i>Our Dealers</a>
+            </div>
+            <div class="footer-col">
+                <h5>Support Center</h5>
+                <a href="#"><i class="bx bx-chevron-right"></i>FAQ's</a>
+                <a href="#"><i class="bx bx-chevron-right"></i>Affiliates</a>
+                <a href="#"><i class="bx bx-chevron-right"></i>Booking Tips</a>
+                <a href="#"><i class="bx bx-chevron-right"></i>Sell Vehicles</a>
+                <a href="#"><i class="bx bx-chevron-right"></i>Contact Us</a>
+                <a href="#"><i class="bx bx-chevron-right"></i>Sitmap</a>
+            </div>
+            <div class="footer-col">
+                <h5>Newsletter</h5>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <input type="text" placeholder="Your Mail">
+                <button>Subscribe Now <i class="bx bxl-telegram"></i></button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Copyright 2024 <span>MOTOB</span> All Right Reserved.</p>
+            <div class="social">
+                <i class="bx bxl-facebook"></i>
+                <i class="bx bxl-twitter"></i>
+                <i class="bx bxl-linkedin"></i>
+                <i class="bx bxl-youtube"></i>
+            </div>
+        </div>
+
+        <!-- Scroll Top Animation -->
+        <a href="#" class="scrollBtn">
+            <i class="bx bxs-chevrons-up"></i>
+        </a>
+    </div>
+
+
+
+
+
+    <!-- Swiper JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Custom JS File -->
+    <script src="script.js"></script>
+
+</body>
+</html\
